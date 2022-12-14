@@ -1,0 +1,170 @@
+@font-face {
+    font-family: patrick-hand;
+    src: url(./font/PatrickHand-Regular.ttf);
+}
+
+body {
+    margin : 0px;
+    padding : 0px;
+    background-image: url("https://img.freepik.com/free-vector/seamless-white-interlaced-rounded-arc-patterned-background_53876-97975.jpg?w=2000");
+    background-position: 0px 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------------left content decoration------------------------------*/
+.left-content {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top : 0;
+    height: 100%;
+    width: 80px;
+    background-color: rgba(129, 250, 177, 0.89);
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.left-content .avatar-img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left : 25px;
+    margin: auto;
+}
+
+.left-content .show-side-bar{
+    position: absolute;
+    right : -15px;
+    top : 50px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.left-content .show-side-bar .show-side-bar-icon
+{
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar-toggle {
+    content: '';
+    width: 180px;
+}
+
+.avatar-name {
+    position: absolute;
+    text-align: center;
+    top : 0;
+    left : 90px;
+    display: none;
+}
+
+.avatar-name-toggle {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display: block;
+    font-size: 24px;
+}
+
+.side-bar-item-list{
+    position: absolute;
+    left : 0;
+    top : 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar-item-list .item{
+    cursor: pointer;
+    position: absolute;
+    left: 35px;
+    height: 30px;
+    width: 30px;
+}
+
+.side-bar-item-list img{
+    height: 100%;
+    width: 100%;
+}
+
+.font-picker {
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    height: 30px;
+    width: 120px;
+    left: 40px;
+    top : 0px;
+    transition: 1s;
+}
+
+.font-picker-toggle {
+    display: block;
+}
+.font-picker:hover{
+    color: rgba(0, 0, 0, 0.486);
+}
+/*------------------center content decoration------------------------------*/
+.center-content {
+    position: absolute;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.news {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgba(231, 230, 232, 0.717);
+}
+
+.title {
+    text-align: center;
+    width: calc(100% - 10px);
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: inherit; 
+    font-weight: bold;
+    color: #222;
+    padding : 0 0 0 10px;     
+}
+
+.description {
+    width : calc(100% - 20px);
+    height: calc(200px - 50px - 20px);
+    padding : 10px 10px 10px 10px;
+    font-size: 18px;
+    color: rgb(20, 20, 20);
+    font-family: inherit; 
+    margin : 0;
+    line-height: 30px;
+}
+.description:hover{
+    color: rgba(41, 41, 41, 0.763);
+}
+/*------------------right content decoration------------------------------*/
+
+.right-content {
+    position: fixed;
+    right: 0;
+    width: calc(10% - 10px);
+    height: 100%;
+    background-color: rgb(186, 183, 183);
+}
+/*-----------------------------------------------------------------------------*/

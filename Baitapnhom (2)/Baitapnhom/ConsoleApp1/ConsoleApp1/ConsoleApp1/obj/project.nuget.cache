@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nzISQ9a4GO1UOA/L+mAXHezCpBO6uTRhnjz8lAUEBDNXK5Oqi/e2wQHB5X801bzzhjFodSTTomC9y97sstpt+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\Baitapnhom (2)\\Baitapnhom\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}

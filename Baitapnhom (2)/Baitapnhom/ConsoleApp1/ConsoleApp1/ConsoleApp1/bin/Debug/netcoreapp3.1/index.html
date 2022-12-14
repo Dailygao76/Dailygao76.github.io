@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Document</title>
+	<link rel="stylesheet" href="mystyle.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="left-content">
+		<div class="avatar">
+			<img src="./icon/eight.png" class="avatar-img">
+			<h3 class="avatar-name">Nhóm 8</h3>
+		</div>
+		<div class="show-side-bar">
+			<img src="./icon/right.png" class="show-side-bar-icon">
+		</div>
+
+		<div class="side-bar-item-list">
+			<div class="setting item">
+				<img src="./icon/setting.png" class="setting-icon">
+				<select class='font-picker' onchange="changeFont()">
+					<option value='sans-serif'>sans serif</option>
+					<option value="patrick-hand">patrick hand</option>
+					<option value="Times New Roman">times new roman</option>
+				</select>
+			</div>			
+		</div>
+	</div>
+	<div class="center-content" id="news-list"></div>
+	<div class="right-content">
+	<div >
+		<script src="./data.js"></script>
+		<script src="./main.js"></script>
+	</div>
+</body>
+
+</html>
