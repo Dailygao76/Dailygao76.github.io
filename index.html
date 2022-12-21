@@ -2,38 +2,34 @@
 <html>
 
 <head>
-	<title>Document</title>
+	<title>Đọc báo 24H</title>
 	<link rel="stylesheet" href="mystyle.css">
+	<link rel="icon" type="image/x-icon" href="logo.ico">
 	<meta charset="utf-8">
 </head>
 
 <body>
-	<div class="left-content">
-		<div class="avatar">
-			<img src="./icon/eight.png" class="avatar-img">
-			<h3 class="avatar-name">Nhóm 8</h3>
-		</div>
-		<div class="show-side-bar">
-			<img src="./icon/right.png" class="show-side-bar-icon">
-		</div>
-
-		<div class="side-bar-item-list">
-			<div class="setting item">
-				<img src="./icon/setting.png" class="setting-icon">
-				<select class='font-picker' onchange="changeFont()">
-					<option value='sans-serif'>sans serif</option>
-					<option value="patrick-hand">patrick hand</option>
-					<option value="Times New Roman">times new roman</option>
-				</select>
-			</div>			
-		</div>
+	<div id="right-content">
+		<div id="setting-icon-contain"><img src="./setting1.png" id="setting-icon"></div>
+		<div id="time-contain"></div>
+		<table id="ctr">
+			<tr>
+				<td>
+					<div class="table-left-content">Font</div>
+				</td>
+				<td>
+					<select id='font-picker' onchange="changeFont()">
+						<option value='Calibri'>Calibri</option>
+						<option value="patrick-hand">patrick hand</option>
+						<option value="Times New Roman">times new roman</option>
+						<option value="Arial">arial</option>
+					</select>
+				</td>
+			</tr>
+		</table>
 	</div>
-	<div class="center-content" id="news-list"></div>
-	<div class="right-content">
-	<div >
-		<script src="./data.js"></script>
-		<script src="./main.js"></script>
-	</div>
+	<script src="./data.js"></script>
+	<script src="./main.js"></script>
 </body>
 
 </html>
